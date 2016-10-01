@@ -1,0 +1,80 @@
+html, body, #wrapper{
+	background-color: #f8EEE7;
+	height:  100vh;
+    margin:  0 auto;
+    padding: 0;
+	top: 0;
+}
+
+#wrapper{
+	width: 900px;
+	height:100vh;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #94518E;
+}
+
+h1{
+	font-family: segoe ui, helvetica, sans serif;
+	color: #49274A;
+	text-align: center;
+	font-size: 26px;
+	padding: 10px;
+}
+p, a {
+	text-align: center;
+	color: #49274A;
+	font-family: segoe ui, helvetica, sans serif;
+}
+i{
+	font-style:italic;
+}
+small{
+	font-size:70%;
+}
+
+#butts{
+	text-align: center;
+}
+button{
+	padding: 10px;
+	margin: 10px;
+	font-family: segoe ui, helvetica, sans serif;
+	border-radius:5px; 
+	background-color:#f8EEE7;
+	color: #49274A;	
+	border: none;
+
+}
+button:hover{
+	background-color:#49274A;
+	color:#f8EEE7;
+}
+
+#divs{
+	height:500px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divvy{
+	vertical-align:top;
+	/*outline: #00FF00 dotted thin; <- maybe I'll put a button to make this separate, but meh, idk.*/ 
+	display: inline-block;
+	padding: 0;
+	margin:0;
+	background-color: #f8EEE7;
+	font-size: 0;
+	position:relative;
+	line-height: 0;
+}
+
+.row{
+	font-size:0;
+	top:0;
+}
+
+.purple{
+	background-color: purple;
+}
